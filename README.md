@@ -99,6 +99,8 @@ A policy is any callable `obs -> float`:
 ```python
 from env import CensoredMarketEnv
 
+my_policy = lambda obs: 1.2
+
 env = CensoredMarketEnv(seed=0)
 obs = env.reset()
 done = False
