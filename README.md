@@ -1,5 +1,9 @@
 # Censored Market
 
+> **ARCHIVED / INACTIVE PROJECT**
+> 
+> This repository is no longer actively maintained, developed, or used for active research. It is preserved here as an archival record of an honest null result and a working synthetic simulation of censored/delayed feedback. No further updates or bug fixes will be made.
+
 A sealed-bid market where an agent bids under a budget against reactive
 competitors, and **cannot observe whether its actions worked.**
 
@@ -20,13 +24,11 @@ Written from scratch. numpy only.
 
 ---
 
-## Status: this is not a benchmark yet
+## Status: Archived Null Result (Not a Benchmark)
 
-Read this section before running anything.
+This project has concluded as an archived exploratory experiment.
 
-The environment works and the invariants hold. But it does **not**
-currently separate policies well enough to score agents on, for two
-measured reasons:
+The environment works and the invariants hold, but it was frozen before becoming a viable benchmark for the reasons outlined below. It is left as-is to document a null result.
 
 **Profit is dominated by budget mechanics.** Every impression has
 positive expected value, so the best strategy is close to "spend the
